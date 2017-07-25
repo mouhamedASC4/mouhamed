@@ -1,0 +1,27 @@
+body{
+    background-image: url("img_tree.gif"), url("img_flwr.gif");
+    background-color: greenyellow;
+       background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+       font-family: sans-serif;
+}
+img{
+    display: block;
+    width: 25%;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto; 
+}
+h1{
+    text-align: center;
+}
+p {
+    display:inline-block;
+    width:74%;
+    vertical-align:middle;
+}
+.timeline-event{
+    background-color:greenyellow;
+    padding:10px;
+    margin:20px;
+    border-radius: 25px;
+}    

@@ -15,3 +15,14 @@ function rand(upperbound){
     return Math.floor(Math.random() *upperbound);
 }
 
+function displayAnswer() {
+    var stage = mashArray[rand(mashArray.lenght)];
+    var hits = firstQuestion[rand(mashArray.lenght)];
+    console.log("you fought" + secondQuestion[2] +
+                " in the " + stage +
+                " and ht them "+ hits +
+                " times. too bad.mewtwo win!" 
+    );
+}
+askQuestion();
+displayAnswer();

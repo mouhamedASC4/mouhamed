@@ -15,5 +15,4 @@ var messiBestInTheWorld="yes"
 var cristianoStamina=97
 var cristianospeed=98
 var cristianoPost="forward"
-var cristianoSeasongoals=25
 var c
